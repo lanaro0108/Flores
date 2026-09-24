@@ -20,6 +20,21 @@ body {
     perspective: 1000px;
 }
 
+.message {
+    position: fixed;
+    top: 8vmin;
+    left: 50%;
+    z-index: 200;
+    transform: translateX(-50%);
+    width: max-content;
+    max-width: calc(100% - 2rem);
+    color: #fff;
+    font-family: Georgia, serif;
+    font-size: clamp(1.25rem, 4vmin, 2.5rem);
+    text-align: center;
+    text-shadow: 0 0 1rem rgba(255, 105, 180, 0.9);
+}
+
 .night {
     position: fixed;
     left: 50%;
